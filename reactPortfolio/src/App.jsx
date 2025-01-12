@@ -4,9 +4,13 @@
 
 import './App.css'
 import Landing from './components/landing'
+import Footer from './components/Footer'
 
-function App() {
-  return <Landing />;
+export default function App() {
+  return (
+  <div>
+    <Landing />
+    <Footer />
+  </div>
+  )
 }
-
-export default App
