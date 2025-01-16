@@ -5,11 +5,14 @@
 import './App.css'
 import Landing from './components/landing'
 import Footer from './components/Footer'
+import Nav from './components/Nav'
+import { Outlet } from 'react-router-dom'
 
 export default function App() {
   return (
   <div>
-    <Landing />
+    <Nav/>
+    <Outlet />
     <Footer />
   </div>
   )
